@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-brs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <p>A tag PRE exibi o texto exatamente com a formatação como escrevemos, tudo é considerando, inclusive os espaços</p>
+    <pre>
+        <code>
+num = int(input("digite um número"))
+if num % 2 == 0:
+    print(f'O número {num} é par')
+else:
+    print(f'O número {num} é ÍMPAR')
+    print('FIM')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Usando a tag Q para fazer uma citação simples</p>
+    <p>uma bela citação a seguir : <q>hfhsdfh sjadjadg shjag</q></p>
+    <h2>Citações completas, com quebra de linha</h2>
+    <p>Segundo Elizabeth Castro, em seu livro HTML for the World Wide Web: </p>
+    <!--"cite" os mecanismos de busca fazem com o texto seja refenciado ao site do livro no interno do seu site-->
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_for_the_World_Wide_Web/Dq9L3KkDOFIC?hl=en&gbpv=0">
+        Annotation The indispensable guide to the constantly evolving lingua franca of the Web. Task-based approach teaches readers how to combine HTML and CSS to create sharp, consistent Web pages regardless of monitor size, browser, platform, or viewing device
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr>, estou gostando</p>
+</body>
+</html>
